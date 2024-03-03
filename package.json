@@ -1,0 +1,14 @@
+{
+	"name": "digitalclock",
+	"version": "1.0.0",
+	"description": "THis is a digital CLock to practice the concept of DOM manipulation and javaScript",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.4.1"
+	}
+}
