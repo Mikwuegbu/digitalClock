@@ -33,10 +33,8 @@ const stopBtnFn = () => {
 
 const startBtnFn = () => {
 	paused = false;
-	updateClock();
 };
 
 setInterval(timeUpdate, 1000);
 document.getElementById('stopBtn').addEventListener('click', stopBtnFn);
 document.getElementById('startBtn').addEventListener('click', startBtnFn);
-updateClock();
